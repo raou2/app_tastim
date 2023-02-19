@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+.upper {
+    margin-bottom: 1.3rem;
+}
+.box {
+    height: 240px;
+    max-width: 400px;
+    max-height: 700px;
+    border-radius: .4rem;
+    box-shadow: 0 0 6px 1px  black;
+    border-top: 6px solid dodgerblue;
+    transition: all .32s;
+    background-color: #1d2259;
+    color: #fff;
+    padding: 1rem;
+
+}
+.box:hover {
+    transform: scale(1.2);
+}
+/* one component  */
+.one p { 
+    font-size: 1rem;
+}
+.point {
+    margin-left: auto;
+    margin-top: -50px;
+    float: inline-end;
+    /* background: red; */
+    padding: .2rem;
+    
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: all .43s;
+
+
+}
+.point:hover {
+    text-decoration: underline;
+   cursor: pointer;
+}
+/* the third component  */
+
+.prog {
+    margin-top: 2rem;
+ 
+
+}
+.prog progress {
+    width: 74%;
+    margin: -0rem  1rem
+}
+
+
+/* three  */
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100px;
+    width: 80%;
+}
+.three img {
+    width: 44px;
+    height: 40px;
+    border-radius: 50%;
+    transform: all 1s;
+}
+.three img:hover {
+    transform: all 1s;
+
+    border: 1px solid black;
+    
+}
+

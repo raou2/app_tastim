@@ -1,14 +1,16 @@
 import React from 'react'
-import './content.css'
-import Ele from './Ele'
+import '../styles/global.css'
+import One from './One'
+import Three from './Three'
+import Two from './Two'
 
 function Box() {
-
   return (
     <div className='box'>
-    
-      <Ele  title='Porfessional' price='122$'/>
-      <Ele  title='Base' price='19.9$'/>
+        <One />
+        <Two />
+        <Three />
+  
 
     </div>
   )

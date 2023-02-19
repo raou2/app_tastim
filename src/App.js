@@ -1,14 +1,14 @@
 import React from 'react'
-import Container from './component/container';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Box from './component/Box';
+import './styles/global.css'
 
 function App() {
 
   return (
-    <div className="App">
-        <Container/>
-  
-    </div>
+    <div className="container">
+      <Box />
+    
+        </div>
   );
 }
 
