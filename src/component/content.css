@@ -1,0 +1,95 @@
+.content {
+    width: 800px;
+    height: auto;
+    /* background:dodgerblue; */
+    padding: 1rem;
+    
+
+}
+.top {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.month-year {
+    
+    padding: .7rem;
+    box-shadow: 0 0 4px #888;
+    border-radius: 2rem;
+    position: relative;
+    background: #9b9898;
+    color: #444;
+}
+.month-year span {
+    margin: .22rem;
+    z-index: 100;
+}
+.move {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: .4rem;
+    padding: 1rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    z-index: 1;
+
+}
+.box {
+
+margin: .3rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+.ele {
+    width: 320px;
+    height: 420px;
+    box-shadow: 0 0 7px #777;
+   
+    border-radius: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .51s;
+    border-radius: .2rem;
+    padding: 1rem;
+
+}
+.ele h2 {
+    margin-bottom: 1rem;
+}
+.ele:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 10px #777;
+
+}
+.button {
+    width: 100%;
+    /* box-shadow: 0 0 4px #444;
+     */
+     border: 1px solid #111;
+    background-color: #fff;
+    transition: all .45s;
+    
+    padding:.4rem;
+    border-radius: .21rem;
+    text-align: center;
+
+}
+.button:hover{
+    background: #111;
+    color: #fff;
+
+}
+span {
+    display: inline-block;
+    padding: .25rem;
+    cursor: pointer;
+}
